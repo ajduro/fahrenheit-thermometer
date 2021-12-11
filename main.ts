@@ -1,5 +1,5 @@
 function ConvertDegtoF (Deg: number) {
-    return Deg * 0 + 0
+    return Deg * 1.8 + 32
 }
 input.onButtonPressed(Button.A, function () {
     basic.showNumber(input.temperature())
